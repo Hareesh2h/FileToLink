@@ -23,11 +23,11 @@ else:
 URL = environ.get("URL", "https://disk.htfilesharing.com/")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001172107435'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2077672802').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "7898455159:AAGH1cE4ZyS4YGg6ZgpKWc93rxuaECyaOKc")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobot")
 
 # Shortlink Info
